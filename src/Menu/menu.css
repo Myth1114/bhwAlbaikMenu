@@ -1,0 +1,104 @@
+/* .MenuSection {
+} */
+.MenuContainer {
+  position: relative;
+  display: flex;
+  height: 70rem;
+}
+.MenuContainer .AlbaikLogo {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 20%;
+  top: 8%;
+}
+.AlbaikLogo img {
+  width: 10rem;
+  z-index: 2;
+}
+.Sidebar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  background-color: #ffca2a;
+  z-index: -1;
+}
+.Sidebar img {
+  position: absolute;
+  width: 10rem;
+  top: 18%;
+}
+.Sidebar h1 {
+  font-size: 8rem;
+  text-align: center;
+  rotate: -90deg;
+  letter-spacing: 1rem;
+  color: #fafafa;
+  text-shadow: 2px 2px 8px #6c6c6c;
+}
+.AlbaikInfo {
+  position: relative;
+  width: 80%;
+}
+.AlbaikInfo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  opacity: 0.1;
+}
+.AlbaikInfo .Details {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 5rem;
+}
+.AlbaikInfo .Details .Albaik {
+  font-size: 4rem;
+}
+.AlbaikInfo .Details .Bar {
+  font-size: 2rem;
+  margin-top: -2rem;
+}
+
+.AlbaikInfo .Details .Contact {
+  display: flex;
+  align-items: center;
+}
+.AlbaikInfo .Details .Contact .Logo {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.MenuList {
+  margin-left: 1rem;
+}
+
+.CommonTitle {
+  background-color: #ffca2a;
+  color: #fafafa;
+  padding: 0.7rem 2rem;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+.ItemList {
+  margin-top: 4rem;
+}
+.ItemList .Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.ItemList .Item .Dot {
+  flex: 1;
+  border-bottom: 1px dashed #aaa;
+  margin: 0 1rem;
+}
+.ItemTitle {
+  margin: 0.1rem 0;
+}

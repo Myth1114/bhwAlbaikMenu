@@ -1,0 +1,37 @@
+.Container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0;
+  height: 60rem;
+  position: relative;
+}
+.Container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  opacity: 0.1;
+}
+.LeftMenu {
+  width: 80%;
+}
+.RightSidebar {
+  position: relative;
+  width: 20%;
+  background-color: #ffca2a;
+}
+.RightSidebar img {
+  position: absolute;
+  top: 10%;
+  width: 10rem;
+  opacity: 1;
+}
+.RightMenu {
+  width: 80%;
+}
+
+.LeftSidebar {
+  width: 20%;
+  background-color: #ffca2a;
+}
