@@ -1,4 +1,6 @@
-.Main {
-  display: grid;
-  place-content: center;
+@media (width>=768px) {
+  .Main {
+    display: grid;
+    place-content: center;
+  }
 }
