@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin: 5rem 0;
-  height: 60rem;
+  /* height: 60rem; */
   position: relative;
 }
 .Container img {

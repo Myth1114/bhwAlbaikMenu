@@ -6,6 +6,7 @@ import SecondPage from "./Pages/SecondPage";
 
 import ThirdPage from "./Pages/ThirdPage";
 
+import SixthPage from "./Pages/SixthPage";
 function App() {
   return (
     <div className="Main">
@@ -14,6 +15,7 @@ function App() {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
+      <SixthPage />
     </div>
   );
 }

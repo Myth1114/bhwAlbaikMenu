@@ -6,7 +6,7 @@ const FriBiPi = () => {
   return (
     <>
       <div className="ItemList">
-        <h2 className="CommonTitle">Veg Starters</h2>
+        <h2 className="CommonTitle">Fried Rice</h2>
         {friedrice.map((el, id) => (
           <div className="Item" key={id}>
             <span className="ItemTitle">{el.title}</span>
@@ -16,7 +16,7 @@ const FriBiPi = () => {
         ))}
       </div>
       <div className="ItemList">
-        <h2 className="CommonTitle">Veg Starters</h2>
+        <h2 className="CommonTitle">Biryani</h2>
         {biryani.map((el, id) => (
           <div className="Item" key={id}>
             <span className="ItemTitle">{el.title}</span>
@@ -26,7 +26,7 @@ const FriBiPi = () => {
         ))}
       </div>
       <div className="ItemList">
-        <h2 className="CommonTitle">Veg Starters</h2>
+        <h2 className="CommonTitle">Pizza</h2>
         {pizza.map((el, id) => (
           <div className="Item" key={id}>
             <span className="ItemTitle">{el.title}</span>

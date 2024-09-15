@@ -82,6 +82,7 @@
   padding: 0.7rem 2rem;
   width: fit-content;
   margin-bottom: 2rem;
+  font-size: 2rem;
 }
 .ItemList {
   margin-top: 4rem;
@@ -101,4 +102,63 @@
 }
 .ItemTitle {
   margin: 0.1rem 0;
+}
+.ItemLists {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.ItemLists li {
+  display: block;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.BucketBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.PriceTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0000;
+  padding: 20px 30px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  position: relative;
+  text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80px;
+  height: 80px;
+  margin-right: 3rem;
+  transform: rotate(-45deg);
+}
+
+.PriceTag::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 20px solid #ff0000;
+}
+
+.currency {
+  font-size: 18px;
+  vertical-align: top;
+}
+
+.amount {
+  font-size: 2.5rem;
+  color: #ffca2a;
 }
